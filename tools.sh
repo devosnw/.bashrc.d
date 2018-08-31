@@ -2,5 +2,5 @@
 # common tool setup
 #
 
-which_quietly brew && bash_source_if_present "$(brew --prefix)/etc/bash_completion"
-which_quietly pyenv && eval "$(pyenv init -)"
+__which_quietly brew && __bash_source_if_present "$(brew --prefix)/etc/bash_completion"
+__which_quietly pyenv && eval "$(pyenv init -)"
