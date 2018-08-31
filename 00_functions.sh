@@ -41,3 +41,9 @@ git_prompt() {
 
   echo -n "$color on $branch$COLOR_RESET"
 }
+
+# do `which` without any output
+which_quietly() {
+  local program="$1"
+  which "$program" >/dev/null 2>&1
+}
