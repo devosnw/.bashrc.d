@@ -9,6 +9,7 @@ export COLOR_RED="$(tput setaf 1)"
 export COLOR_RESET="$(tput sgr0)"
 export COLOR_WHITE="$(tput setaf 7)"
 export COLOR_YELLOW="$(tput setaf 3)"
+export GPG_TTY="$(tty)"
 export HISTCONTROL=ignoreboth
 export HISTIGNORE='&:bg:cd:clear:exit:fg:ll:ls:pwd'
 export HISTTIMEFORMAT='%F %T '
