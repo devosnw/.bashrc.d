@@ -5,6 +5,7 @@
 export COLOR_BLUE="$(tput setaf 4)"
 export COLOR_CYAN="$(tput setaf 6)"
 export COLOR_GREEN="$(tput setaf 2)"
+export COLOR_MAGENTA="$(tput setaf 5)"
 export COLOR_RED="$(tput setaf 1)"
 export COLOR_RESET="$(tput sgr0)"
 export COLOR_WHITE="$(tput setaf 7)"
