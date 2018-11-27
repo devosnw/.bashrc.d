@@ -15,3 +15,5 @@ export HISTCONTROL=ignoreboth
 export HISTIGNORE='&:bg:cd:clear:exit:fg:ll:ls:pwd'
 export HISTTIMEFORMAT='%F %T '
 export HISTSIZE=10000
+export PROMPT_COMMAND='history -a'
+
