@@ -12,3 +12,4 @@ git clone git@github.com:devosnw/.bashrc.d.git
 ln -s .bashrc.d/bashrc .bash_profile
 ln -s .bashrc.d/bashrc .bashrc
 ```
+
