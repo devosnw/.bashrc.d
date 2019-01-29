@@ -16,5 +16,6 @@ export HISTCONTROL=ignoreboth
 export HISTIGNORE='&:bg:cd:clear:exit:fg:lal:ll:ls:pwd'
 export HISTTIMEFORMAT='%F %T '
 export HISTSIZE=10000
+export LSCOLORS=GxFxCxDxBxegedabagaced
 export PROMPT_COMMAND='history -a'
 
