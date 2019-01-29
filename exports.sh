@@ -2,6 +2,7 @@
 # exports
 #
 
+export CLICOLOR=1
 export COLOR_BLUE="$(tput setaf 4)"
 export COLOR_CYAN="$(tput setaf 6)"
 export COLOR_GREEN="$(tput setaf 2)"
